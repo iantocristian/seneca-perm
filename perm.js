@@ -18,7 +18,7 @@ var name = "perm"
 module.exports = function(options) {
   var globalSeneca = this
 
-  var aclBuilder = new ACLMicroservicesBuilder(globalSeneca)
+  var aclBuilder = new ACLMicroservicesBuilder()
 
   options = this.util.deepextend({
     status: {
